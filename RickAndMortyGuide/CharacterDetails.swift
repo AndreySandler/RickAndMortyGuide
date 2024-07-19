@@ -37,12 +37,12 @@ struct CharacterDetails: View {
                 }
                 .frame(width: 320, height: 374)
                 ScrollView(.vertical) {
-                    VStack(alignment: .leading, spacing: 5) {
+                    VStack(alignment: .leading, spacing: 10) {
                         let episodeName = characterEpisode.map { $0.name }
                         let string = episodeName.joined(separator: ", ")
                         Text("Species: \(result.species)")
                         Text("Gender: \(result.gender)")
-                        Text("Episode: \(string)").lineSpacing(5)
+                        Text("Episode: \(string)").lineSpacing(10)
                         Text("Location: \(result.location.name)")
                     }
                     .scrollIndicators(.hidden)
@@ -51,7 +51,7 @@ struct CharacterDetails: View {
                 .scrollIndicators(.hidden)
                 .frame(width: 320, height: 136)
             }
-            .frame(width: 320, height: 502)
+            .frame(width: 320, height: 534)
         }
         .scrollIndicators(.hidden)
         .navigationTitle(result.name)
