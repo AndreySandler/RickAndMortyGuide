@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835BA5422C49DC7F00F43DCC /* RickAndMorty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5412C49DC7F00F43DCC /* RickAndMorty.swift */; };
+		835BA5442C49DF8200F43DCC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5432C49DF8200F43DCC /* Network.swift */; };
+		835BA5462C4A838800F43DCC /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5452C4A838800F43DCC /* CharacterRow.swift */; };
+		835BA5482C4A855500F43DCC /* CharacterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5472C4A855500F43DCC /* CharacterDetails.swift */; };
 		83B1EC1B2C495C7400B2A88B /* RickAndMortyGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */; };
 		83B1EC1D2C495C7400B2A88B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1EC1C2C495C7400B2A88B /* ContentView.swift */; };
 		83B1EC1F2C495C7600B2A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B1EC1E2C495C7600B2A88B /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		835BA5412C49DC7F00F43DCC /* RickAndMorty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty.swift; sourceTree = "<group>"; };
+		835BA5432C49DF8200F43DCC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		835BA5452C4A838800F43DCC /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		835BA5472C4A855500F43DCC /* CharacterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetails.swift; sourceTree = "<group>"; };
 		83B1EC172C495C7400B2A88B /* RickAndMortyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyGuideApp.swift; sourceTree = "<group>"; };
 		83B1EC1C2C495C7400B2A88B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +62,10 @@
 				83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */,
 				83B1EC1C2C495C7400B2A88B /* ContentView.swift */,
 				83B1EC1E2C495C7600B2A88B /* Assets.xcassets */,
+				835BA5412C49DC7F00F43DCC /* RickAndMorty.swift */,
+				835BA5432C49DF8200F43DCC /* Network.swift */,
+				835BA5452C4A838800F43DCC /* CharacterRow.swift */,
+				835BA5472C4A855500F43DCC /* CharacterDetails.swift */,
 				83B1EC202C495C7600B2A88B /* Preview Content */,
 			);
 			path = RickAndMortyGuide;
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835BA5462C4A838800F43DCC /* CharacterRow.swift in Sources */,
+				835BA5422C49DC7F00F43DCC /* RickAndMorty.swift in Sources */,
+				835BA5482C4A855500F43DCC /* CharacterDetails.swift in Sources */,
 				83B1EC1D2C495C7400B2A88B /* ContentView.swift in Sources */,
+				835BA5442C49DF8200F43DCC /* Network.swift in Sources */,
 				83B1EC1B2C495C7400B2A88B /* RickAndMortyGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +294,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -312,6 +329,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
