@@ -31,9 +31,8 @@ struct Character: Decodable {
     var description: String {
         """
     Species: \(species)
+    
     Gender: \(gender)
-    Episodes: \(episode)
-    Location: \(location.name)
     """
     }
 }

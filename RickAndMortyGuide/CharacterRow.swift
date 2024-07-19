@@ -24,7 +24,7 @@ struct CharacterRow: View {
                     .lineLimit(1)
                     .minimumScaleFactor(0.9)
                 HStack {
-                    Text("\(result.status)")
+                    Text("\(result.status.firstCharUpper())")
                     Text("• \(result.species)")
                         .padding(-5)
                 }

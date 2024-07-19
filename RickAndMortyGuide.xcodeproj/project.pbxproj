@@ -11,6 +11,7 @@
 		835BA5442C49DF8200F43DCC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5432C49DF8200F43DCC /* Network.swift */; };
 		835BA5462C4A838800F43DCC /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5452C4A838800F43DCC /* CharacterRow.swift */; };
 		835BA5482C4A855500F43DCC /* CharacterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BA5472C4A855500F43DCC /* CharacterDetails.swift */; };
+		838CA57B2C4AE2CF0001E763 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CA57A2C4AE2CF0001E763 /* Extensions.swift */; };
 		83B1EC1B2C495C7400B2A88B /* RickAndMortyGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */; };
 		83B1EC1D2C495C7400B2A88B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1EC1C2C495C7400B2A88B /* ContentView.swift */; };
 		83B1EC1F2C495C7600B2A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B1EC1E2C495C7600B2A88B /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		835BA5432C49DF8200F43DCC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		835BA5452C4A838800F43DCC /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
 		835BA5472C4A855500F43DCC /* CharacterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetails.swift; sourceTree = "<group>"; };
+		838CA57A2C4AE2CF0001E763 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		83B1EC172C495C7400B2A88B /* RickAndMortyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyGuideApp.swift; sourceTree = "<group>"; };
 		83B1EC1C2C495C7400B2A88B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				83B1EC1A2C495C7400B2A88B /* RickAndMortyGuideApp.swift */,
-				83B1EC1C2C495C7400B2A88B /* ContentView.swift */,
 				83B1EC1E2C495C7600B2A88B /* Assets.xcassets */,
 				835BA5412C49DC7F00F43DCC /* RickAndMorty.swift */,
 				835BA5432C49DF8200F43DCC /* Network.swift */,
 				835BA5452C4A838800F43DCC /* CharacterRow.swift */,
+				83B1EC1C2C495C7400B2A88B /* ContentView.swift */,
 				835BA5472C4A855500F43DCC /* CharacterDetails.swift */,
+				838CA57A2C4AE2CF0001E763 /* Extensions.swift */,
 				83B1EC202C495C7600B2A88B /* Preview Content */,
 			);
 			path = RickAndMortyGuide;
@@ -155,6 +158,7 @@
 				83B1EC1D2C495C7400B2A88B /* ContentView.swift in Sources */,
 				835BA5442C49DF8200F43DCC /* Network.swift in Sources */,
 				83B1EC1B2C495C7400B2A88B /* RickAndMortyGuideApp.swift in Sources */,
+				838CA57B2C4AE2CF0001E763 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyGuide/Preview Content\"";
 				DEVELOPMENT_TEAM = J572FQ3494;
 				ENABLE_PREVIEWS = YES;
@@ -302,7 +306,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.AndreySandler.RickAndMortyGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -321,7 +325,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"RickAndMortyGuide/Preview Content\"";
 				DEVELOPMENT_TEAM = J572FQ3494;
 				ENABLE_PREVIEWS = YES;
@@ -337,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.2;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.AndreySandler.RickAndMortyGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

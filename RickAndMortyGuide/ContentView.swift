@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var results = [Character]()
+    @State private var episodes = [Episode]()
     
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.preferredFont(forTextStyle: .extraLargeTitle2)]
@@ -18,10 +19,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(results, id: \.id) { result in
-                NavigationLink(destination: CharacterDetails(result: result)) {
+                NavigationLink(destination: CharacterDetails(result: result, characterEpisode: episodes)) {
                     CharacterRow(result: result)
                 }
             }
+            .scrollIndicators(.hidden)
             .navigationTitle("Rick & Morty Characters ")
             .navigationBarTitleDisplayMode(.inline)
             .preferredColorScheme(.dark)
